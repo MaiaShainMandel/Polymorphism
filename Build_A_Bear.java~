@@ -1,0 +1,47 @@
+public class Build_A_Bear
+{
+  private String name;
+  private String animal;
+  private String color;
+  private int birthDay;
+  private int birthMonth;
+  private int birthYear;
+  private String clothes;
+  private String shoes;
+  private boolean song;
+  private String scent;
+  private boolean accessories;
+  private int condition;
+  
+  public Build_A_Bear (String n) 
+  {
+    name = n;
+    animal = "bear";
+    color = "brown";
+    birthDay = 1;
+    birthMonth = 1;
+    birthYear = 2019;
+    clothes = "shirt";
+    shoes = "none";
+    song = false;
+    scent = "none";
+    accessories = false;
+    condition = 100;
+  }
+  
+  public Build_A_Bear (String n,String a, String c, int bd, int bm,int by, String cl,String sh,boolean so,String sc,boolean ac)
+  {
+    name = n;
+    animal = a;
+    color = c;
+    birthDay = bd;
+    birthMonth = bm;
+    birthYear = by;
+    clothes = cl;
+    shoes = sh;
+    song = so;
+    scent = sc;
+    accessories = ac;
+    condition = 100;
+  }
+  
